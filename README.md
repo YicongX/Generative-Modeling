@@ -9,7 +9,7 @@ In this project three main generative modeling architectures are tested:
 The project is trained and tested on CUB 2011 Dataset (http://www.vision.caltech.edu/visipedia/CUB-200-2011.html). This dataset contains 11,708 images of close-up shots of different bird species in various environments. Our models are trained to generate realistic-looking samples of these birds. Due to computational considerations for the course, we used a downsampled version of the dataset at a 32x32 resolution.
 
 ## GAN 
-We implemented three GAN losses from [1](https://arxiv.org/pdf/1406.2661.pdf), [2](https://arxiv.org/pdf/1611.04076.pdf),[3](https://arxiv.org/pdf/1704.00028.pdf)training results:
+We implemented three loss functions: GAN loss from [1](https://arxiv.org/pdf/1406.2661.pdf), LSGAN loss from [2](https://arxiv.org/pdf/1611.04076.pdf), WGAN-GP loss from[3](https://arxiv.org/pdf/1704.00028.pdf)
 
 
 ## Paper Cited
