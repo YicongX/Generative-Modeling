@@ -17,6 +17,11 @@ Traditional autoencoder, VAE and Beta VAE were trained and tested. By tunning be
 ## Diffusion
 In this project we trained and tested Denoising Diffusion Probabilistic Models (DDPM), and Denoising Diffusion Implicit Model. For DDPM, increase number of sampling steps improve the overall image quality but requires longer to sample and generate results. So that the issue with DDPM is that we need to loop over all the timestamps sequentially, which is not very efficient. Denoising Diffusion Implicit Model (DDIM) samples a small number of timesteps from the total timestamps. But it reauires hyperparameter tuning to yield comparable results with DDPM.
 
+### DDPM Results
+![image](https://user-images.githubusercontent.com/72159394/216895875-618fa0bb-9dda-41a5-885e-5656fb157c34.png)
+
+### DDIM Results (Timesteps = 1000; η = 0.72)
+![Uploading image.png…]()
 
 ## Paper Cited
 1. Generative Adversarial Nets (Goodfellow et al, 2014): https://arxiv.org/pdf/1406.2661.pdf
