@@ -5,6 +5,12 @@ In this project three main generative modeling architectures are tested:
 2. Auto-encoder, variational auto-encoder (VAE) [4](https://arxiv.org/pdf/1606.05908.pdf) and a beta-VAE [5](https://arxiv.org/pdf/1804.03599.pdf) with a linear schedule.
 3. DDPM [6](https://arxiv.org/abs/2006.11239) and DDIM [7](https://arxiv.org/abs/2010.02502) sampling for diffusion models.
 
+## Dataset
+The project is trained and tested on CUB 2011 Dataset (http://www.vision.caltech.edu/visipedia/CUB-200-2011.html). This dataset contains 11,708 images of close-up shots of different bird species in various environments. Our models are trained to generate realistic-looking samples of these birds. Due to computational considerations for the course, we used a downsampled version of the dataset at a 32x32 resolution.
+
+## GAN 
+Below are some GAN training results:
+
 
 ## Paper Cited
 1. Generative Adversarial Nets (Goodfellow et al, 2014): https://arxiv.org/pdf/1406.2661.pdf
